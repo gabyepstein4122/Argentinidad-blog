@@ -1,150 +1,115 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Aref Ruqaa Ink','Oswald' , sans-serif , Verdana;
-}
-
-.titulo{
-    font-family: 'Bungee Spice', cursive;
-    border-bottom-style: double;
-    border-color: rgb(101, 163, 156);
-    margin-top: 40px;
-    margin-left: 90px;
-    text-align: left;
-    width: 290px;
-    
-}
-
-.h1_links{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-nav{
-    text-align: right;
-    margin: 20px ;
-}
-
-.nav_links{
-    text-decoration: none;
-    color: rgb(6, 70, 66);
-}
-
-.menu{
-    display: inline-block;
-    padding-right: 50px; 
-}
-
-li a:hover{
-    text-decoration-line: underline; color: rgb(142, 189, 173);
-}
-
-.ciudades{
-    background-color: rgb(181, 213, 221);
-    padding: 20px 30px 20px 30px;
-    overflow-x: scroll; 
-    height: 55vh;
-}
-
-.flex_main{
-    display: flex; 
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-}
-
-.ciudades_zoom:hover{
-   transform: scale(1.1); 
-}
-/* 
-.flex_main2{
-
-    display: flex;
-    justify-content: space-around; 
-    position: relative;
-} */
-.ciudades_nombre{
-    position: absolute;
-    background-color: rgb(3, 20, 20);
-    opacity: 0.6;
-    color: antiquewhite;
-    margin-top: 100px;
-    margin-left: 70px;
-    padding: 30px;
-}
-
-.ciudades_links{
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-.ciudades_img{
-    width: 250px ;
-    height: 250px;
-    margin: 20px;
-}
-
-.ciudades_links:hover{
-    
-    text-decoration-line: underline; color: rgb(142, 189, 173);
-}
+*{font-family: 'Aref Ruqaa Ink','Oswald' , sans-serif , Verdana;
  
-.Flex_historia{
+}
+
+.fondo{
+    /* background-image: url(../images/fondobg.jpg); 
+    background-repeat: ;
+    background-size: contain;*/
+    background-image: linear-gradient(to top, white,white,#799dbf,#799DBF,#567088,#51677D);
+    /* background-image: radial-gradient(#546D85, WHITE); */
+}
+
+.logo{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.divlogo{
     
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 20px 10px;
-}  
-
-.espacio_div{
-    margin-left: 20px;
-    /* border : rgb(181, 213, 221) 5px groove; */
-}
-
-.h2yh3_principal{ 
-    text-align: center;
-    color: rgb(6, 70, 66);
-    margin: 30px 0px;
+    margin-top: 30px;
     
 }
-
-.p_espacio{
-    margin: 10px;
-}
-
-.sabiasque{
+.menu{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 0px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    
 }
 
-ul{
+.menu li{
     list-style: none;
+    
+    padding: 20px;
+    
 }
 
-.sabiasque_cuadro{
-    border : rgb(181, 213, 221) 5px groove;
-    margin: 10px 10px;
-    width: 200px;
-    height: 200px;
-    font-size: 80%;
-    padding: 20px 10px ;
+.menu li a{
+    color: rgb(211, 207, 207);
+    text-decoration: none;
+    text-transform: uppercase
+
 }
 
-.sabiasque_subtitulo{
-    text-align: center;
+.menu li:hover{
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+.menu li a:hover{
+    color: white;
+}
+
+.carousel-inner img {
+    width: auto;
+    max-height: 500px;
+}
+
+
+
+.titulodeimg{
+   background-color: rgb(3, 20, 20);
+    opacity: 0.6;
+    color: antiquewhite;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.classh5{
+    transform: translateY(-100px);
+}
+
+.titulodeimg:hover{
+    text-decoration: underline antiquewhite;
+    color: white;
+    background-color: black;
+}
+
+
+.article-historia{
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+.alinear{
+    margin-top: 100px;
+}
+
+.imgzoom:hover{
+    transform: scale(1.1);
+} 
+
+.espaciado{
+    padding: 50px 300px;
+}  
+
+.grid-sabiasque{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+}
+
+.caja{
     margin-top: 20px;
     margin-bottom: 20px;
-    text-decoration-line: underline;
-    font-size: 15px;
+    
 }
-
-.text_tamano{
-    font-size: 10px;
-}
-
 
 .background_footer{
     height: 50vh;
@@ -154,6 +119,8 @@ ul{
     background-image: url("../images/footer/background.png");
     margin-top: 50px;
     padding-top: 100px;
+   
+    
 }
 
 .texto_blanco{
@@ -208,7 +175,7 @@ ul{
 }
 
 
-/* CULTURA.HTML */
+CULTURA.HTML 
 
 video{
     height: 100%;
@@ -252,11 +219,11 @@ video{
     margin-bottom: 90px;
 }
 
-/* article h4{
+article h4{
     text-align: center;
     color: rgb(6, 70, 66);
     margin: 20px 0px;
-} */
+} 
 
 .musica_color{
    color: rgb(211, 233, 231);
@@ -310,7 +277,7 @@ video{
 }
 
 
-/* Ciudades.html */
+Ciudades.html 
 
 .imagenescity{
     width: 400px;
@@ -329,7 +296,7 @@ iframe{
 }
 
 
-/* CELEBRES.HTML */
+CELEBRES.HTML 
 
 
 .img_celebres{
@@ -338,27 +305,7 @@ iframe{
     
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CONTACTO.HTML */
+CONTACTO.HTML 
 
 
 .cuadro-form{
@@ -381,4 +328,4 @@ iframe{
 .espacio_p{
     padding-right: 10px;
     
-}
+} 
