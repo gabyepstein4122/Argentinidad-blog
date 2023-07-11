@@ -14,28 +14,29 @@
         <link rel="icon" type="image/png" sizes="16x16" href="../images/icon html/favicon-16x16.png">
         <link rel="manifest" href="../images/icon html/site.webmanifest">
     </head>
-    <body>
-        <header>
-            <h1 class="titulo"><a class="h1_links" href="../paginas/argentinidad.html"> ARGENTINIDAD </a></h1>
-            <nav>    
-                <ul>
-                    <li class="menu"><a class="nav_links" href="cultura.html">Cultura |</a></li>
-                    <li class="menu"><a class="nav_links" href="ciudades.html">Ciudades |</a></li>
-                    <li class="menu"><a class="nav_links" href="celebres.html">Celebres |</a></li>
-                    <li class="menu"><a class="nav_links" href="contacto.html">Contacto |</a></li>
+    <body class="fondo">
+        <header> 
+            <div class="divlogo sombra text-center color">
+                <a href="../index.html"><img class="logo" src="../images/LogoArgentinidad.png" alt="LogoArgentinidad"></a>
+            </div>
+            <div>
+                <ul class="menu">
+                    <li><a href="cultura.html">Cultura</a></li>
+                    <li><a href="ciudades.html">Ciudades</a></li>
+                    <li><a href="celebres.html">Celebridades</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
-            </nav> 
+            </div>
         </header>
         <main>
             <section><!-- Primera section; video -->
-                <video autoplay="autoplay" loop="loop" muted >
+                <video autoplay="autoplay" loop="loop" muted width="100%" >
                     <source src="../videos/cultura.mp4" type="video/mp4">
                 </video>
             </section>
-            <section><!-- Segunda section; musica -->
-                <h2 class="h2yh3_principal"> Musica </h2>
+            <section><!-- Segunda section musica -->
                 <article>
-                    <div class=" div_posicion flex_padre">
+                    <div class="div_posicion flex_padre">
                         <img class="img_musica" src="../images/musica/rocknacional.png" alt="Rock_Nacional">
                         <div class="flex_hijos">
                             <h2 class="musica_titulo musica_color"> Rock </h2>
@@ -109,7 +110,7 @@
                         <p> Se cree que la autora de este dulce fue una de las criadas de Juan Manuel de Rosas, quien olvidó al fuego una lechada, una mezcla de leche y azúcar. La leyenda cuenta que cuando ella regresó, se encontró con una sustancia espesa y de color marrón. En vez de desechar el preparado, su sabor le agradó a Rosas y lo compartió durante una reunión con el General Juan Lavalle, donde discutían sobre el Pacto de Cañuelas. </p>
                     </div>   
                 </article>
-           </section>
+            </section>
             <!-- Cuarta section; Deportes -->
             <section>
                 <h2 class="h2yh3_principal">Deportes</h2>
@@ -166,20 +167,21 @@
                         <p>Mas que informacion, una verdadera experiencia digital.</p> 
                     </div>
                     <div>
-                        <h2><img class="img_footer" src="../images/footer/CheckBox.png" alt="checkbox"> Seguinos en Redes!</h2>
+                        <h2>Seguinos en Redes!</h2>
                         <br> 
-                        <div> <!--aca tengo que redefinir las fotos ya que no me gusta como quedan-->
-                            <img  class="img_footer3" src="../images/footer/fb.png" alt="facebook">
-                            <img class="img_footer2" src="../images/footer/tw.png" alt="twitter">
-                            <img class="img_footer2" src="../images/footer/ig.png" alt="Instagram">
-                            <img class="img_footer3" src="../images/footer/yt.png" alt="Youtube">
+                        <div class="d-flex justify-content-evenly"> 
+                            <a href=""><img class="img_footer"src="../images/footer/facebook.png" alt="facebook"></a>
+                            <a href=""><img class="img_footer" src="../images/footer/twitter.png" alt="twitter"></a>
+                            <a href=""><img class="img_footer" src="../images/footer/instagram.png" alt="Instagram"></a>
+                            <a href=""><img class="img_footer" src="../images/footer/youtube.png" alt="Youtube"></a>
                         </div>
                     </div>
                 </article>
                 <article class="flex_footer2">
-                    <p> Argentinidad - Blog Informativo e Ilustrativo.</p>
+                    <p class="p_footer"> Argentinidad - Blog Informativo e Ilustrativo.</p>
                 </article>
             </section>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </body>
 </html>

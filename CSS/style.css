@@ -1,20 +1,29 @@
-*{font-family: 'Aref Ruqaa Ink','Oswald' , sans-serif , Verdana;
- 
+*{
+font-family: 'Aref Ruqaa Ink','Oswald' , sans-serif , Verdana;
+margin: 0px;
+border: 0px;
+}
+
+@media screen and (max-width:600px){
+
+    div.divlogo.sombra.text-center.color{
+        height: 100px;
+    }
+    img.logo{
+        height: 100px;
+        margin: 0px;
+    }
+    
 }
 
 
-
 .fondo{
-    /* background-image: url(../images/fondobg.jpg); 
-    background-repeat: ;
-    background-size: contain;*/
     background-image: linear-gradient(to top, white,white,#799dbf,#799DBF,#567088,#51677D);
-    /* background-image: radial-gradient(#546D85, WHITE); */
 }
 
 .logo{
     width: 150px;
-    margin: 20px;
+    
 }
 
 .sombra{
@@ -23,7 +32,7 @@
 
 
 .divlogo{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .color{
@@ -56,7 +65,7 @@
 .menu li:hover{
     color: white;
     background-color: black;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 .menu li a:hover{
@@ -71,7 +80,7 @@
 
 
 .titulodeimg{
-   background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     opacity: 0.5;
     color: antiquewhite;
     padding: 30px;
@@ -95,19 +104,8 @@
     background-color: black;
     border-radius: 20px;
     padding: 15px;
-    
 }
 
-/* .efectopiola{
- transition: padding 2s;
- 
-}
-
-.efectopiola:hover{
- padding-right: 0px;
- padding-left: 0px;
- 
-} */
 
 .alinear{
     margin-top: 100px;
@@ -134,6 +132,11 @@
     
 }
 
+.espacio-caja{
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
 .background_footer{
     
     background-color: #171717;
@@ -141,9 +144,7 @@
     background-position-x: center;
     background-image: url("../images/footer/background.png");
     margin-top: 50px;
-    padding-top: 100px;
-   
-    
+    padding-top: 100px; 
 }
 
 .texto_blanco{
@@ -159,29 +160,13 @@
 
 .h2_footer{
     text-align: left;
-    text-decoration: underline;
     color: white;
-  
 }
-
+    
 .img_footer{
-    width: 20px ;
-    height: 20px ;
-    
+    width: 60px;
+    height: 60px;
 }
-
-.img_footer2{
-    width: 50px ;
-    height: 50px ;
-    
-}
-
-.img_footer3{
-    width: 60px ;
-    height: 60px ;
-    
-}
-
 
 .flex_footer2{
     display: flex;
@@ -249,8 +234,8 @@ article h4{
 } 
 
 .musica_color{
-   color: rgb(211, 233, 231);
-   background-color: black;
+    color: rgb(211, 233, 231);
+    background-color: black;
 }
 
 .musica_texto{
@@ -344,11 +329,10 @@ CONTACTO.HTML
 
 .flex_contacto{
     display: flex;
-   align-items: flex-start;
-   
+    align-items: flex-start;
 }
 
 .espacio_p{
     padding-right: 10px;
     
-} 
+}
